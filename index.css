@@ -1,10 +1,13 @@
-/*Normalisation de ma page RESET CSS*/
+/* Normalisation de ma page RESET CSS */
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+
+/* mise en forme des balises globales */
 
 html,
 body {
@@ -14,44 +17,40 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 
 /* HEADER */
 
 header {
-    background-color: #333;
+    background: #333;
     overflow: hidden;
-    line-height: 1.7rem;
-}
-
-.active {
-    background-color: #444;
-    padding: 3rem;
 }
 
 header h1 {
     float: left;
     padding: 1.23rem;
+}
+
+header h1 a {
     color: white;
-    display: inline-block;
 }
 
-nav ul {
-    list-style-type: none;
-    line-height: 1.7rem;
-}
-
-nav {
+header nav {
     float: right;
-    margin-top: 1.8rem;
 }
 
-nav li {
-    display: inline;
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
     padding: 1.23rem;
-    text-align: center;
 }
 
-.couleur {}
+header nav ul li a {
+    color: white;
+    padding: 1.23rem;
+    display: block;
+}
