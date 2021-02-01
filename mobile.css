@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center
+    }
+    header h1 {
+        float: none;
+    }
+    header nav {
+        display: inline-block;
+        float: none;
+    }
+    header h1 a {
+        text-align: center;
+    }
+    header nav ul {
+        float: none;
+    }
+    header nav ul li {
+        text-align: center;
+    }
+    .cafe {
+        margin: auto;
+        margin-left: 15rem;
+    }
+    .cafe div {
+        float: none;
+    }
+    .person {
+        margin: 0;
+    }
+}

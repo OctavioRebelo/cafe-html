@@ -19,52 +19,48 @@
         
         header {
             background: #333;
-            overflow: auto;
-            line-height: 1.7em;
+            overflow: hidden;
         }
         
         header h1 {
             float: left;
-            padding: 20px;
-            margin-bottom: 0px;
+            padding: 1.23rem;
         }
         
         header h1 a {
             color: white;
         }
         
-        header nav ul {
+        header nav {
             float: right;
+        }
+        
+        header nav ul {
             list-style: none;
         }
         
         header nav ul li {
             float: left;
+            padding: 1.23rem
         }
         
         header nav ul li a {
             color: white;
-            padding: 20px;
+            padding: 1.23rem;
             display: block;
         }
         
-        header nav ul li a:hover {
-            background: #444;
+        ul li:hover {
+            background-color: #444;
         }
-        
-        .active {
-            background: #444;
-        }
-        
-        ​​​​
         /* Première section */
         
         .section1 {
-            background-image: url(images/frame.jpg);
+            background-image: url(./images/frame.jpg);
             background-size: cover;
             text-align: center;
-            padding: 10rem 2rem;
             color: white;
+            padding: 10rem 2rem;
         }
         
         .centre {
@@ -83,7 +79,7 @@
         
         .section1 div hr {
             border: none;
-            background-color: #222;
+            background-color: black;
             height: 0.9rem;
             width: 6rem;
             display: inline-block;
@@ -102,21 +98,18 @@
             font-size: 1.6rem;
             padding: 0.3rem;
             background-color: white;
-            border-radius: 50px;
-            text-decoration: solid;
+            border-radius: 37px;
         }
         
         .section1 a:hover {
-            color: whitesmoke;
-            font-weight: bold;
-            background-color: #222;
+            color: white;
+            background-color: black;
         }
         /* Deuxieme Section */
         
         .cafe {
             margin-left: 5rem;
             margin-right: 5rem;
-            height: 22rem;
         }
         
         .cafe div {
@@ -141,7 +134,18 @@
             background-size: cover;
             background-position: center;
             height: 22rem;
+            margin-top: 18rem;
         }
+        /* footer */
+        
+        footer {
+            height: 4rem;
+            padding-top: 1.2rem;
+            background-color: #333;
+            color: whitesmoke;
+            text-align: center;
+        }
+        /* Section where */
         
         .r {
             text-align: center;
@@ -176,13 +180,4 @@
             font-weight: bold;
             background-color: white;
             border: #222;
-        }
-        /* footer */
-        
-        footer {
-            height: 4rem;
-            padding-top: 1.2rem;
-            background-color: #333;
-            color: whitesmoke;
-            text-align: center;
         }
